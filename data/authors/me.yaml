@@ -2,115 +2,125 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  display: Abhinav Jain
+  given: Abhinav
+  family: Jain
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
 postnominals:
-  - PhD
-  - MIEEE
+  - PhD Candidate
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🤖"
+role: Graduate Research Assistant
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Abhinav Jain is a PhD Candidate in Robotics at Oregon State University,
+  minoring in Artificial Intelligence. His research focuses on robotic tree pruning
+  and dexterous manipulation using deep reinforcement learning and synthetic data generation.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Oregon State University
+    url: https://oregonstate.edu/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:abhinav98jain@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/abhinavj98/
+  - icon: brands/github
+    url: https://github.com/abhinavj98
 
 interests:
-  - Large Language Models
+  - Deep Reinforcement Learning
+  - Imitation Learning
+  - Sim-to-Real Transfer
+  - Agricultural Robotics
   - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: PhD Robotics, Minor in AI
+    institution: Oregon State University
+    start: 2021-09-01
+    end: 2026-08-31
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
+      Advisors: Dr. Cindy Grimm and Dr. Stefan Lee.
+      Courses: Deep Learning, Learning Based Control, Natural Language Processing, Kinematics/Dynamics. GPA: 3.91/4
     button:
-      text: Download dissertation
-      url: /resume.pdf
+      text: Download Resume
+      url: /uploads/resume_1.pdf
       icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+  - degree: B.Tech Electronics and Communication Engineering
+    institution: Sardar Vallabhbhai National Institute of Technology
+    start: 2016-08-01
+    end: 2020-07-31
+    summary: |
+      Capstone: Birding - GANs to convert text description to bird images.
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Graduate Research Assistant
+    org: Oregon State University
+    start: 2021-12-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
+      Built a learning pipeline for robotic tree-pruning and dexterous apple-picking. Applied Deep RL (PPO) for a UR5 manipulator using Stable Baseline 3 and SKRL. Developed a novel hybrid RL method incorporating suboptimal expert data. Built a procedural tree generation tool for sim-to-real gap bridging.
     button:
-      text: View portfolio
-      url: /
+      text: View resume
+      url: /uploads/resume_1.pdf
       icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+  - role: Robotics Engineer Intern
+    org: AgRobotics
+    start: 2025-06-01
+    end: 2025-09-30
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Building the future of Agricultural Robots. Deformable object simulation in Isaac Sim. Image auto-labelling using SAM2 and YOLO.
+  - role: Engineer
+    org: Samsung Research Institute
+    start: 2021-01-01
+    end: 2021-08-31
+    summary: |
+      Engineer in 5G NR MAC team. Wrote Unit Tests and Block Tests according to Google Test framework, increasing test coverage. Awarded Software Professional Certification for DSA skills.
+  - role: Research Intern
+    org: RBCCPS LAB, IISc
+    start: 2020-07-01
+    end: 2021-01-31
+    summary: |
+      Adapted state-of-the-art models of Image Inpainting in PyTorch to Dynamic to Static LiDAR Reconstruction. Proposed "LiDAR Quality Index" metric.
 
 skills:
   - name: Technical Skills
     items:
       - label: Python
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: C/C++
         level: 4
-  - name: Research & Communication
+      - label: PyTorch
+        level: 5
+      - label: ROS2
+        level: 4
+      - label: Reinforcement Learning
+        level: 5
+  - name: Libraries & Tools
     items:
-      - label: Academic Writing
+      - label: Git
         level: 5
-      - label: Conference Presentations
+      - label: OpenCV
         level: 4
-      - label: Grant Proposals
+      - label: MoveIt!
         level: 4
 
 languages:
   - name: English
     level: 5
-    label: Native
-  - name: Spanish
-    level: 4
     label: Fluent
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: Runners up
+    awarder: DotSlash Hackathon
+    date: "2020-01-01"
+    summary: Jyoti - An assistant for people with vision impairment.
+    icon: hero/trophy
+  - title: 12th Rank
+    awarder: Robocon 2020
+    date: "2020-01-01"
+    summary: Secured 12th rank out of 120 participating teams.
     icon: hero/trophy
