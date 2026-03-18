@@ -2,6 +2,7 @@
 title: Courses
 summary: My courses
 type: landing
+active: false
 
 cascade:
   - target:
