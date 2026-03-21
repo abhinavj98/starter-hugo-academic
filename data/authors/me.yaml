@@ -41,8 +41,8 @@ interests:
 education:
   - degree: PhD Robotics, Minor in AI
     institution: Oregon State University
-    start: 2021-09-01
-    end: 2026-08-31
+    start: 2021
+    end: 2026
     summary: |
       Advisors: Dr. Cindy Grimm and Dr. Stefan Lee.
       Courses: Deep Learning, Learning Based Control, Natural Language Processing, Kinematics/Dynamics. GPA: 3.91/4
@@ -50,14 +50,17 @@ education:
       text: Download Resume
       url: /uploads/resume_1.pdf
       icon: hero/arrow-down-tray
-  - degree: MS in Robotics with minor in AI
+  - degree: MS in Robotics, Minor in AI
     institution: Oregon State University
+    start: 2021
+    end: 2023
     summary: |
+      Advisors: Dr. Cindy Grimm and Dr. Stefan Lee.
       GPA: 4.0
   - degree: B.Tech Electronics and Communication Engineering
     institution: Sardar Vallabhbhai National Institute of Technology
-    start: 2016-08-01
-    end: 2020-07-31
+    start: 2016
+    end: 2020
     summary: |
       Capstone: Birding - GANs to convert text descriptions to bird images.
 
@@ -114,6 +117,9 @@ skills:
 
 languages:
   - name: English
+    level: 5
+    label: Fluent
+  - name: Hindi
     level: 5
     label: Fluent
 
