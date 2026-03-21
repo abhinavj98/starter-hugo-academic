@@ -6,7 +6,7 @@ name:
   given: Abhinav
   family: Jain
   alternate: ''
-  pronunciation: ''
+  pronunciation: 'Uh-bin-uhv'
   pronouns: he/him
 postnominals:
   - PhD Candidate
@@ -15,9 +15,9 @@ status:
 role: PhD Candidate in Robotics
 bio: |
   Abhinav Jain is a PhD Candidate in Robotics at Oregon State University,
-  minoring in Artificial Intelligence. His research focuses on robotic tree pruning
-  and dexterous manipulation using deep reinforcement learning and synthetic data generation.
-
+  minoring in Artificial Intelligence. His research focuses on designing complex simulations
+  and learning-based control methods.
+  
 affiliations:
   - name: Oregon State University
     url: https://oregonstate.edu/
@@ -50,12 +50,16 @@ education:
       text: Download Resume
       url: /uploads/resume_1.pdf
       icon: hero/arrow-down-tray
+  - degree: MS in Robotics with minor in AI
+    institution: Oregon State University
+    summary: |
+      GPA: 4.0
   - degree: B.Tech Electronics and Communication Engineering
     institution: Sardar Vallabhbhai National Institute of Technology
     start: 2016-08-01
     end: 2020-07-31
     summary: |
-      Capstone: Birding - GANs to convert text description to bird images.
+      Capstone: Birding - GANs to convert text descriptions to bird images.
 
 experience:
   - role: Graduate Research Assistant
