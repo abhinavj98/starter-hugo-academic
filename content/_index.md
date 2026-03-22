@@ -46,12 +46,6 @@ sections:
     design:
       columns: '1'
 
-  - block: resume-experience
-    content:
-      title: Experience
-      username: me  # Make sure this matches the folder name!
-    design:
-      columns: '2'
   - block: collection
     id: papers
     content:
