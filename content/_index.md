@@ -42,11 +42,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I'm a PhD Candidate in Robotics at Oregon State University, minoring in Artificial Intelligence. My research interests span deep reinforcement learning, synthetic data generation, and their applications in agricultural robotics.
-
-        My current work focuses on visuomotor robotic tree pruning and dexterous manipulation for fruit harvesting using hybrid reinforcement learning methods.
-
-        I'm passionate about building the future of agricultural robots and closing the sim-to-real gap. Reach out to collaborate! 😃
+        I'm a PhD Candidate in Robotics at Oregon State University, minoring in Artificial Intelligence. My research interests span deep reinforcement learning, synthetic data generation, and their applications in agricultural robotics.My current work focuses on visuomotor robotic tree pruning and dexterous manipulation for fruit harvesting using hybrid reinforcement learning methods. I'm passionate about building the future of agricultural robots and closing the sim-to-real gap. Reach out to collaborate! 😃
     design:
       columns: '1'
 
