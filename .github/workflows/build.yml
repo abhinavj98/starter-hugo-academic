@@ -79,10 +79,16 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pnpm install --no-frozen-lockfile
-        # This creates a symlink so Hugo can find "tailwindcss" via npx
-        echo "Checking Tailwind version:"
-        npx tailwindcss --version
+        # 1. Globally install the Tailwind v4 CLI so Hugo finds it instantly
+        npm install -g @tailwindcss/cli
+        
+        # 2. Install any remaining project dependencies (like Pagefind)
+        if [ -f "package.json" ]; then
+          pnpm install --no-frozen-lockfile || npm install
+        fi
+        
+        # 3. Verify it's globally available
+        tailwindcss --version
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
