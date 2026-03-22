@@ -79,11 +79,10 @@ jobs:
 
     - name: Install dependencies
       run: |
-        # Install Tailwind CLI if package.json exists
-        if [ -f "package.json" ]; then
-          echo "Installing Tailwind dependencies..."
-          pnpm install --no-frozen-lockfile || npm install
-        fi
+        pnpm install --no-frozen-lockfile
+        # This creates a symlink so Hugo can find "tailwindcss" via npx
+        echo "Checking Tailwind version:"
+        npx tailwindcss --version
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
