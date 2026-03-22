@@ -117,6 +117,12 @@ jobs:
         HUGO_BLOX_LICENSE: ${{ secrets.HUGO_BLOX_LICENSE }}
       run: |
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
+        # Explicitly add pnpm's local binary folder to the PATH
+        export PATH="$PWD/node_modules/.bin:$PATH"
+        
+        # Verify it can be found before building
+        tailwindcss --version
+        
         hugo --minify
 
     - name: Generate Pagefind search index (if applicable)
