@@ -2,7 +2,7 @@
 title: 'Learning to Prune Branches in Modern Tree-Fruit Orchards'
 
 authors:
-  - admin
+  - me
   - 'Cindy Grimm'
   - 'Stefan Lee'
 
