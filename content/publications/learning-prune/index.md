@@ -19,19 +19,14 @@ hugoblox:
   ids:
     doi: '10.1109/ICRA55743.2025.11128361'
 
-# Updated link format to resolve deprecation warnings
+# Replace your current links block with this:
 links:
-  - icon: file-pdf
-    icon_pack: fas
-    name: IEEE
+  - type: pdf
     url: 'https://ieeexplore.ieee.org/document/11128361'
-  - icon: arxiv
-    icon_pack: ai
+  - type: preprint
     name: arXiv
     url: 'https://arxiv.org/abs/2507.23015'
-  - icon: youtube
-    icon_pack: fab
-    name: Video
+  - type: video
     url: 'https://www.youtube.com/watch?v=78LGGPcMVyQ'
 
 # Featured image
