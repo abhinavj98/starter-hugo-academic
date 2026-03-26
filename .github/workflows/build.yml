@@ -82,8 +82,8 @@ jobs:
         # Ensure we have the latest CLI and dependencies via pnpm
         pnpm install --no-frozen-lockfile
         
-        # ADDED: Install tailwindcss globally so Hugo can find it in the PATH
-        npm install -g tailwindcss
+        # FIXED: Tailwind v4 requires the CLI package specifically
+        npm install -g tailwindcss @tailwindcss/cli
         
         # Verify the binary is reachable system-wide
         tailwindcss --version
