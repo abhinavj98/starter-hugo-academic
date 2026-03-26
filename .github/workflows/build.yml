@@ -40,7 +40,7 @@ jobs:
         fetch-depth: 0
 
     - name: Setup Node.js
-      uses: actions/setup-node@v6
+      uses: actions/setup-node@v4 # Changed from v6 to v4 (the latest valid version)
       with:
         node-version: ${{ env.NODE_VERSION }}
 
@@ -79,11 +79,14 @@ jobs:
 
     - name: Install dependencies
       run: |
-        # Ensure we have the latest CLI and dependencies
+        # Ensure we have the latest CLI and dependencies via pnpm
         pnpm install --no-frozen-lockfile
         
-        # Verify the binary is reachable through pnpm
-        pnpm exec tailwindcss --version
+        # ADDED: Install tailwindcss globally so Hugo can find it in the PATH
+        npm install -g tailwindcss
+        
+        # Verify the binary is reachable system-wide
+        tailwindcss --version
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v3
