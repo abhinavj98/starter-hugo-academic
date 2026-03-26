@@ -200,9 +200,9 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   analytics:
     google:
-      measurement_id: ""                # Google Analytics 4: G-XXXXXXXXXX
+      measurement_id: "G-QMHX2QPYTY"                # Google Analytics 4: G-XXXXXXXXXX
     google_tag_manager:
-      container_id: "G-QMHX2QPYTY"      # GTM-XXXXXXX
+      container_id: ""      # GTM-XXXXXXX
     plausible:
       domain: ""
     fathom:
